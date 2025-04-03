@@ -1,0 +1,33 @@
+.language-switcher {
+    position: relative;
+  }
+  
+  .language-select {
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #34495e;
+    color: white;
+    border: 1px solid #4a6fa5;
+    cursor: pointer;
+    font-size: 14px;
+    appearance: none;
+    padding-right: 30px;
+  }
+  
+  .language-select:focus {
+    outline: none;
+    border-color: #3498db;
+  }
+  
+  .language-switcher::after {
+    content: "▼";
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+  }
+  
+  
